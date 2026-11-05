@@ -1,0 +1,9 @@
+{
+  "name": "Rasoi - Traditional Recipes",
+  "short_name": "Rasoi",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#BC3814",
+  "theme_color": "#BC3814",
+  "description": "Authentic traditional Indian recipe application with trilingual support."
+}

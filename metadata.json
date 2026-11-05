@@ -1,0 +1,6 @@
+{
+  "name": "Rasoi - Traditional Recipes",
+  "description": "Authentic traditional Indian recipe application with trilingual support (English, Hindi, Telugu), hands-free voice cooking assistant, ingredient substitutions, meal planner, and smart shopping list.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
