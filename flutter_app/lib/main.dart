@@ -122,7 +122,7 @@ class _MainShellScreenState extends State<MainShellScreen> {
           timerSeconds: 1800,
         ),
         RecipeStep(
-          stepNumber = 2,
+          stepNumber : 2,
           title: LocalizedText(en: 'Dum Cooking', hi: 'दम पर पकाना', te: 'దమ్ చేయడం'),
           instruction: LocalizedText(
             en: 'Layer rice and cook sealed on low flame for 25 minutes.',
@@ -348,7 +348,9 @@ class _MainShellScreenState extends State<MainShellScreen> {
 
     return Card(
       margin: const EdgeInsets.only(bottom: 16),
-      shape: RoundedCornerShape(16),
+      shape: RoundedRectangleBorder(
+  borderRadius: BorderRadius.circular(16),
+),
       clipBehavior: Clip.antiAlias,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
